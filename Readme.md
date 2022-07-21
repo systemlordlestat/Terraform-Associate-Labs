@@ -4,7 +4,7 @@
 
 [Install HashiCorp Terraform VSCode Instructions](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform)
 
-We'll mostly be using AWS as the primary provider. 
+We'll mostly be using AWS as the primary provider.
 If you want to follow along for all labs you'll need accounts for:
 
 - [Amazon Web Services (AWS)](https://aws.amazon.com/)

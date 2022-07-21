@@ -19,7 +19,7 @@ resource "aws_instance" "my_server" {
 	}
 	lifecycle {
 		prevent_destroy = false
-	} 
+	}
 }
 
 output "public_ip" {

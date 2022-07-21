@@ -1,11 +1,10 @@
 terraform {
-  backend "remote" {
-    hostname = "app.terraform.io"
-    organization = "ExamPro"
+  backend "s3" {
+    bucket = "myterratestbucket"
+    key = "mystate/terraform.tfstate"
+    region = "us-east-1"
 
-    workspaces {
-      name = "getting-started"
-    }
+
   }
 
   required_providers {
@@ -17,5 +16,5 @@ terraform {
 }
 
 locals {
-  project_name = "Andrew"
+  project_name = "Seun"
 }
