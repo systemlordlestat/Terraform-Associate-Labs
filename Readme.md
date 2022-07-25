@@ -1,5 +1,5 @@
 ## Install
-
+checking
 [Install Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli#install-terraform) following the offical instructions
 
 [Install HashiCorp Terraform VSCode Instructions](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform)
